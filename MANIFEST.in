@@ -1,0 +1,34 @@
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE.txt
+
+# Include the requirements file
+include requirements.txt
+
+# Include the paramiko.log file
+include paramiko.log
+
+# Include the ICNS Icon file
+include AnyConv.com__orange-icon.icns
+
+# Include the private key for connecting to server
+include ssh/tridi-mpl.pem
+include src/ssh/tridi-mpl.pem
+
+# Include the scan DATA DIRECTORIES: _failed_scans, _models, _scans, and _uploaded
+graft _failed_scans
+graft _models/VIRTUAL
+include _models/index.html
+graft _scans/VIRTUAL
+include _scans/index.html
+graft _uploaded/VIRTUAL
+include _uploaded/index.html
+
+# Include the images directory
+graft images
+
+# Include the external_app_bin
+graft external_app_bin  # TODO: In future only install the directories for this PLATFORM
+# For example, when we make py2app, for macos, graft ONLY the external_app_bin/mac_os folder.

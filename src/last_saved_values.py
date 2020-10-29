@@ -1,0 +1,8 @@
+from_email = 'audio.retailer@sonautics.com'
+to_email = 'CAD.3Dprinter.location@sonautics.com'
+consumer_id = 'jane.q.consumer@sonautics.com'
+consumer_name = 'Jane Consumer'
+order_details = 'Order Instructions for CAD & 3D Printer'
+monitor_scanning_flag = 'False'
+monitor_modeling_flag = 'False'
+monitor_upload_flag  = 'False'

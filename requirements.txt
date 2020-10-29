@@ -1,0 +1,6 @@
+PySimpleGUI~=4.28.0
+DateTime~=4.3
+paramiko~=2.7.1
+requests~=2.24.0
+uuid~=1.30
+setuptools~=49.2.1
